@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chapters43-48 assignments</title>
+</head>
+<body>
+
+    <!-- Task 1 -->
+    <h3>Task 1</h3>
+
+    <a href="#"  onclick="alert('Hello world')">click</a> <br><br>
+    <a href="#"  onclick="showAlert()">click</a>
+    
+    <!-- Task 2 -->
+    <h3>Task 2</h3>
+    <img height="200" src="smgalazy.jpg" onclick="alert('Samsung Galaxy')" alt="">
+    <img height="200" src="hawaii.jpg" onclick="alert('Hawaii')" alt="">
+    <img height="200" src="iphone.jpg" onclick="alert('I-phone')" alt="">
+
+    <!-- Task 3 -->
+    <h3>Task 3</h3>
+
+    <div id="display-student" > </div>
+    
+
+    <!-- Task 4 -->
+    <h3>Task 4</h3>
+
+    <img height="200" src="smgalazy.jpg" onmouseover="src='hawaii.jpg' " onmouseout="src='smgalazy.jpg' " alt="">
+
+
+    <h3>Task 5</h3>
+    <h1 id="count">0</h1>
+
+    <button onclick="increase()">Increase +</button> |
+    <button onclick="decrease()">Decrease -</button> |
+    <button onclick="reset()">Reset 0</button> 
+
+    <br><br>
+    <h3>extra repeating task 3 with different Method</h3>
+
+    <table cellspacing='15px'>
+        <th>Index</th>
+        <th>Name</th>
+        <th>Class</th>
+        <th>Action</th>                                              
+           <tr id="std0">
+               <td>0</td>
+               <td>jhone</td>
+               <td>10</td>
+               <td><button onclick="document.getElementById('std0').remove()">Delete</button></td>
+           </tr>
+           <tr  id="std1">
+            <td>1</td>
+            <td>Mark</td>
+            <td>10</td>
+            <td><button onclick="document.getElementById('std1').remove()">Delete</button></td>
+        </tr> 
+        <tr id="std2">
+            <td>2</td>
+            <td>Doe</td>
+            <td>10</td>
+            <td><button onclick="document.getElementById('std2').remove()">Delete</button></td>
+        </tr> 
+        <tr id="std3">
+            <td>3</td>
+            <td>Damsaz</td>
+            <td>10</td>
+            <td><button onclick="document.getElementById('std3').remove()">Delete</button></td>
+            
+        </tr> 
+        <tr id="std4">
+            <td>4</td>
+            <td>Ali</td>
+            <td>10</td>
+            <td><button onclick="document.getElementById('std4').remove()">Delete</button></td>
+            
+        </tr> 
+        <tr id="std5">
+            <td>5</td>
+            <td>Nadir</td>
+            <td>10</td>
+            <td><button onclick="document.getElementById('std5').remove()">Delete</button></td>
+            
+        </tr>                                             
+        </table>
+    <script src="app.js" ></script>
+</body>
+</html>
